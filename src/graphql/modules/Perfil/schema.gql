@@ -8,6 +8,6 @@ type Perfil{
     descricao: TipoPerfil
 }
 
-type Query: {
+type Query {
     perfis: [Perfil]
 }
